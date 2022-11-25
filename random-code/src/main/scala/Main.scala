@@ -1,3 +1,5 @@
+import scala.io.StdIn.readLine
+
 @main def hello: Unit = 
   // creates a list
   val nums = List(1, 2, 3, 4, 5)
@@ -21,6 +23,13 @@
   // use dog methods
   dog.speak()
   dog.wagTail()
+
+  // get name from console
+  println("First name:")
+  val firstName = readLine()
+  println("Last name:")
+  val lastName = readLine()
+  println(s"Hello, $firstName $lastName!")
 
 // Enum example definition
 enum Topping:

@@ -31,6 +31,13 @@ import scala.io.StdIn.readLine
   val lastName = readLine()
   println(s"Hello, $firstName $lastName!")
 
+  // multiline strings
+  val multi = """ The large tree
+                  on the small world
+                  fell down
+                  like an elephant"""
+  println(multi)
+
 // Enum example definition
 enum Topping:
   case Cheese, Pepperoni, Sausage, Mushrooms, Onions

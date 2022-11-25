@@ -22,6 +22,9 @@
   dog.speak()
   dog.wagTail()
 
+// Enum example definition
+enum Topping:
+  case Cheese, Pepperoni, Sausage, Mushrooms, Onions
 
 trait Animal:
   def speak(): Unit

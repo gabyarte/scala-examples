@@ -5,10 +5,13 @@
   val doubledNums = nums.map(_ * 2)
   // filter the list
   val filteredNums = nums.filter(_ % 2 == 0)
+  // reduce the list
+  val reducedNums = nums.reduce(_ + _)
   // print every list
   println(nums)
   println(doubledNums)
   println(filteredNums)
+  println(reducedNums)
 
   // instantiate a dog
   val dog = Dog()

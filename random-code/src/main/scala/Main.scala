@@ -9,3 +9,20 @@
   println(nums)
   println(doubledNums)
   println(filteredNums)
+
+  // instantiate a dog
+  val dog = Dog()
+  // use dog methods
+  dog.speak()
+  dog.wagTail()
+
+
+trait Animal:
+  def speak(): Unit
+
+trait HasTail:
+  def wagTail(): Unit
+
+class Dog extends Animal, HasTail:
+  def speak(): Unit = println("Woof!")
+  def wagTail(): Unit = println("⎞⎜⎛  ⎞⎜⎛")
